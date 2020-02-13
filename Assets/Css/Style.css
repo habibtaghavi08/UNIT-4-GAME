@@ -1,0 +1,66 @@
+img{
+    width:100%;
+    height:300px;
+}
+
+body{
+    
+    font-style: bold;
+    font-weight: bold;
+    color: red;
+
+}
+
+span{
+    text-align: center;
+    color: red;
+    font-size: xx-large;
+
+}
+h2{
+     color: red;
+    scroll-behavior: auto;
+    background-position: center;
+    font-stretch: ultra-expanded;
+    
+
+}
+
+header {
+color: limegreen;
+font-size: xx-large;
+text-align: center;
+font-weight: bolder;
+font-display: center;
+
+}
+#wins{
+    text-align: center;
+    color: red;
+}
+
+#losses{
+    text-align: center;
+    color: red;
+}
+
+
+#targetNumber{
+text-align: center;
+font-size: xx-large;
+color: limegreen;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font: bolder;
+
+}
+
+
+
+#scoreBoard{
+    color:red;
+    text-align: center;
+    font: bolder;
+    font-size: xx-large;
+    align-self: center;
+}
+
