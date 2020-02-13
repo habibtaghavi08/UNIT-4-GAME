@@ -67,3 +67,7 @@ startGame()
 $("#wins").html(wins)
 $("#losses").html(losses)
 
+document.querySelector("#wins").innerHTML= "0"
+document.querySelector("#scoreBoard").innerHTML = "<h1>TOTAL SCORE </h1>"
+
+// Step 1 How to display wins and losses

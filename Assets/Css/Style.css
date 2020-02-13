@@ -8,21 +8,21 @@ body{
     font-style: bold;
     font-weight: bold;
     color: red;
-
+    font-weight: bolder;
 }
 
 span{
     text-align: center;
     color: red;
     font-size: xx-large;
-
+    font-weight: bolder;
 }
 h2{
      color: red;
     scroll-behavior: auto;
     background-position: center;
     font-stretch: ultra-expanded;
-    
+    font-weight: bolder;
 
 }
 
@@ -37,6 +37,7 @@ font-display: center;
 #wins{
     text-align: center;
     color: red;
+    font-weight: bolder;
 }
 
 #losses{
