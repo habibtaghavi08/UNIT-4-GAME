@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,54 +8,60 @@
     <title>Document</title>
     <link rel="stylesheet" href="./Assets/Css/Style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
 
 </head>
-<body
-    style="background-image: url(Assets/Images/diamoundBG.jpg)";
-    opacity= "0.0">
 
-    <h2><marquee>CLICK ON AN ANY IMAGE OF THE CYRSTALS TO BEGIN, EACH IMAGE HAS A RANDOM NUMERIC VALUE,
-        ADD THE VALUES OF THE DIFFERENT IMAGES TO AQUIRE THE GENERATED TARGET NUMBER TO WIN!! GGOD LUCK AND HAVE FUN!</marquee></h2>
-   
+<body style="background-image: url(Assets/Images/diamoundBG.jpg)" ; opacity="0.0">
+
+    <h2>
+        <marquee>CLICK ON AN ANY IMAGE OF THE CYRSTALS TO BEGIN, EACH IMAGE HAS A RANDOM NUMERIC VALUE,
+            ADD THE VALUES OF THE DIFFERENT IMAGES TO AQUIRE THE GENERATED TARGET NUMBER TO WIN!! GGOD LUCK AND HAVE
+            FUN!</marquee>
+    </h2>
+
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div id="targetNumber">
-                       </div>
-    <div class="container">
-    <div class="col-lg-12">
-         <div> WINS:   <span id="wins"> 0 </span></div>  <div> LOSSES: <span id="losses"> 0 </span></div>
-        
-       
-        
+                </div>
+                <div class="container">
+                    <div class="col-lg-12">
+                        <div> WINS: <span id="wins"> 0 </span></div>
+                        <div> LOSSES: <span id="losses"> 0 </span></div>
 
-        
-    </div>
-            
-            <div class="col-md-12">
-                <div id="scoreBoard">
+
+
+
+
+                    </div>
+
+                    <div class="col-md-12">
+                        <div id="scoreBoard">
+
+                        </div>
+                    </div>
+                </div>
+                <div id="imageDiv" class="row">
 
                 </div>
+
+                <header>
+                    <marquee behavior="scroll" direction="right">*** RANDOM IMAGE VALUE, ALONG WITH THE TARGET NUMBER,
+                        WILL CHANGE AT THE BEGINNING, WITH EACH NEW GAME!***</marquee>
+                </header>
+
+
+
             </div>
-        </div>
-        <div id="imageDiv" class="row">
- 
-        </div>
-
-  <header> <marquee behavior="scroll" direction="right">*** RANDOM IMAGE VALUE, ALONG WITH THE TARGET NUMBER,
-       WILL CHANGE AT THE BEGINNING, WITH EACH NEW GAME!***</marquee></header>
-    
-   
-
-    </div>
 
 
-    
-    <script src="./Assets/Javascript/Game.js"> </script>
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="./Assets/Javascript/Game.js"> </script>
 
 
 </body>
+
 </html>
