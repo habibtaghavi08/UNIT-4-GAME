@@ -4,11 +4,11 @@ img{
 }
 
 body{
-    
-    font-style: bold;
+    font family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style:italic ;
     font-weight: bold;
     color: red;
-    font-weight: bolder;
+
 }
 
 span{
@@ -50,8 +50,7 @@ font-display: center;
 text-align: center;
 font-size: xx-large;
 color: limegreen;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-font: bolder;
+font-weight: bolder;
 
 }
 
